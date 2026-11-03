@@ -24,6 +24,7 @@ Developed by: Moogethshivan G G
 RegisterNumber:  212225040259
 */
 ```
+```
 import numpy as np
 from sklearn.datasets import fetch_california_housing
 from sklearn.model_selection import train_test_split
@@ -60,6 +61,8 @@ r2_occupancy = r2_score(y_test[:, 1], y_pred[:, 1])
 
 print(f"R² for House Price: {r2_house_price:.2f}")
 print(f"R² for Occupancy: {r2_occupancy:.2f}")
+
+```
 
 
 ## Output:
